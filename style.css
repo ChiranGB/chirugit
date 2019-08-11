@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(173, 196, 196);
+}
+.loginreg{
+    margin:20px;
+    position: relative;
+    
+    padding:20px;
+    background-color: rgb(207, 218, 207);
+}
+.header{
+    background-color: rgb(20, 180, 20);
+    text-align: center;
+    font-family: Geneva, Tahoma, sans-serif;
+    color:white;
+    padding:10px;
+    filter:alpha;
+}
+
+.header .welc{
+    float:right;
+}
+
+.loginreg h2{
+    text-align: center;
+    color:blue;
+}
+fieldset{
+    border-width:1px;
+    padding:10px;
+    margin-top: 15px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: rgb(35, 206, 35);
+}
+fieldset .loginfield{
+    width:300px;
+    border-radius: 5px;
+    position: relative;
+    left:10px;
+    padding:5px;
+}
+.but{
+    position: relative;
+    left:100px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(84, 84, 230);
+    height:25px;
+    margin-left:80px;
+    margin-top:20px;
+    width:100px;
+}
+.loginreg a {
+    padding:10px;
+    margin-left:500px;
+    font-size: 20px;
+    color:green;
+    left:250px;
+    text-decoration: none;
+}
+.newForm{
+margin:20px;
+float:right;
+}
+.newfield{
+    margin:5px;
+    border-width: 5px;
+}
+table{
+    margin:50px;
+    width:80%;
+}
+table, th, td{
+    padding:10px;
+    border-collapse: collapse;
+    border-bottom:1px solid rgb(17, 17, 19);
+}
+th,td{
+    width:100px;
+    height:15px;
+    text-align: center;
+}
+th{
+    background-color: #578bd8;
+    color:wheat;
+    
+}
+.navbar .search{
+    margin-left:80px;
+}
+#title1{
+    text-align: center;
+    color:blueviolet;
+}

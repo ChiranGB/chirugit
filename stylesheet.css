@@ -1,0 +1,66 @@
+
+.header{
+    background-color: rgb(21, 99, 21);
+    text-align: center;
+    font-family: Geneva, Tahoma, sans-serif;
+    color:white;
+    padding:10px;
+    filter:alpha;
+}
+#logout{
+    position: relative;
+    margin-top:20px;
+    left:400;
+}
+#logout:hover{
+    background-color: rgb(11, 54, 29);
+    color:rgb(231, 16, 16);
+}
+.navbar{
+background-color: rgba(16, 46, 26, 0.836);
+margin:5px;
+padding:5px;
+}
+li{
+    display: inline-block;
+}
+li a{
+    display: inline-block;
+    padding:5px;
+    margin-left:5px;
+    font-size: 20px;
+    text-decoration: none;
+    color:rgb(240, 224, 195);
+}
+li a:hover{
+    background-color: rgb(7,56,16);
+    color:yellow;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(19,116,51,0.836);
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.loginreg #left {
+    float: left;
+    width: 65%;
+    overflow: hidden;
+  }
+  
+.loginreg #right {
+    overflow: hidden;
+    float:right;
+    background-color: beige;
+  }
+
